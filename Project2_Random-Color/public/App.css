@@ -1,0 +1,17 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+button{
+    height: 2rem;
+    width: 10rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
