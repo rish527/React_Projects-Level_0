@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(240, 234, 227);
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.active{
+    color: purple;
+}
+
+.star-rating{
+    /* background: wheat; */
+    height: 2rem;
+    padding: 1rem ;
+    /* width: 10rem; */
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+}
+.container{
+    width: 20rem;
+    height: 15rem;
+    padding: 2rem;
+    background: radial-gradient(rgb(255, 255, 255),rgb(30, 75, 255) 30rem);
+    background: white;
+    border-radius: 20px;
+    border: 2px solid rgb(227, 181, 255);
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: centers; */
+    flex-direction:column;
+    gap: 4rem;
+}
+
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rating p{
+    font-size: 1.5rem;
+}
+
