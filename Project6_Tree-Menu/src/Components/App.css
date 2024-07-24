@@ -1,0 +1,60 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
+body{
+    background-color: whitesmoke;
+    height: 95vh;
+}
+#root{
+    height: 100%;
+}
+    
+.treeContainer{
+    position: absolute;
+    background: white;
+    min-width: 20%;
+    padding: 1rem;
+    min-height: 94%;
+    padding-left: 2rem;
+    border-radius: 1.3rem;
+    box-shadow: 1px 0px 10px rgb(210, 210, 210);
+} 
+
+.sideBarHead{
+    padding: 1rem;
+}
+
+.heading{
+    margin: 30px 0px;
+    padding: .5rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap:1rem;
+    font-size: 1.7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition:width 1s;
+    width: 60%;
+}
+.heading p{
+    margin: 0px;
+}
+.heading:hover{
+    padding-left: 30px;
+    cursor: pointer;
+    color: rgb(116, 78, 255);
+}
+
+.heading button{
+    height: 1rem;
+    width: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: .8rem;
+}
