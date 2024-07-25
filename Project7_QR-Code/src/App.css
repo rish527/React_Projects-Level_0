@@ -1,0 +1,50 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container{
+  margin-top: 2rem;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 50%;
+  gap: 1rem;
+}
+
+h1{
+  margin-bottom: 2rem;
+}
+.get-input{
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+input{
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 20rem;
+}
+
+button{
+  border: none;
+  outline: none;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#qr-value{
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
